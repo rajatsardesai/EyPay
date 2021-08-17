@@ -16,17 +16,17 @@ const Header = () => {
                             </p>
                             <h3>Get early access for you</h3>
                             <div className="input-group mt-3">
-                                <input type="text" className="rounded-pill w-75 me-3 p-3 form-control-text" />
-                                <div className="input-group-text">
+                                <input type="text" className="rounded-pill w-75 me-3 p-3 form-control-text" placeholder="Enter your email"/>
+                                <div className="input-group-button">
                                     Get it now
                                 </div>
                             </div>
                             {/* --------------- main header right side-------- */}
-                            <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center">
-                            <img src="./image/hero1.jpg" alt="heroimg" className="img-fluid" />
-                            <img src="./image/hero4.jpg" alt="heroimg4" className="img-fluid" />
                             </div>
-                        </div>
+                            <div className="col-12 col-lg-6 header-right-side d-flex justify-content-center align-items-center main-herosection-images">
+                            <img src="./image/hero1.jpg" alt="heroimg" className="img-fluid" />
+                            <img src="./image/hero4.jpg" alt="heroimg4" className="img-fluid main-hero-img2" />
+                            </div>
                     </div>
                 </section>
             </header>
