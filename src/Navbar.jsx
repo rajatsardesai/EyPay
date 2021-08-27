@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -16,16 +17,16 @@ const Navbar = () => {
                         <div className={`collapse navbar-collapse ${show ? "show" : ""}`} >
                             <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                                 <li className="nav-item">
-                                    <a className="nav-link active" aria-current="page" href="#">Home</a>
+                                    <NavLink className="nav-link active" aria-current="page" to="/">Home</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Services</a>
+                                    <NavLink className="nav-link" to="/service">Services</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">About</a>
+                                    <NavLink className="nav-link" to="/about">About</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Contact</a>
+                                    <NavLink className="nav-link" to="/contact">Contact</NavLink>
                                 </li>
                             </ul>
                             <form className="d-flex">
